@@ -5,6 +5,7 @@ import Address from './address.js';
 import ProductCart from './product-cart.js';
 import DatePicker from 'react-datepicker';
 import "react-datepicker/dist/react-datepicker.css";
+import Data from './data/data.json';
 
 
 class Index extends React.Component {
@@ -58,7 +59,7 @@ class Index extends React.Component {
     <div className="container">
     <div className="row">
       <div className="col-full">
-        <ProductCart />
+        <ProductCart data={Data.productCart}/>
       </div>
     </div>
     </div></React.Fragment>);

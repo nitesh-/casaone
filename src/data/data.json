@@ -1,0 +1,22 @@
+{
+	"shipping_details": {},
+	"billing_details": {},
+	"productCart": [
+		{
+			"product_id": 1001001,
+			"product_name": "asdsdsad",
+			"qty": 1,
+			"unit_price": 289,
+			"total_price": 12,
+			"notes": "Notes"
+		},
+		{
+			"product_id": 1001001,
+			"product_name": "asdsdsad",
+			"qty": 1,
+			"unit_price": 289,
+			"total_price": 12,
+			"notes": "Notes"
+		}
+	]
+}
