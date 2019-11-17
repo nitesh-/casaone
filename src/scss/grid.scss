@@ -1,0 +1,107 @@
+.container {
+  background: #ffffff;
+  width: 90%;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.col-half,
+.col-full {
+  width: 96%;
+}
+
+.col-half-sm {
+  width: 32%;
+}
+
+.col-full-sm {
+  width: 96%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+@media only screen and (min-width: 20em) {  /* 320 */
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+  .container {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */
+
+  .col-half {
+    width: 32%;
+  }
+
+  .col-full {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 48em) {  /* 768px */
+
+  .container {
+    width: 100%;
+  }
+
+  .col-half {
+    width: 50%;
+  }
+
+  .col-full {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 60em) { /* 960px */
+  .container {
+    width: 100%;
+    max-width: 70rem;
+  }
+
+  .col-half {
+    width: 36%;
+  }
+
+  .col-full {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+}

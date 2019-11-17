@@ -1,14 +1,34 @@
 {
-	"shipping_details": {},
-	"billing_details": {},
+	"shipping_details": {
+		"first_name": "Nitesh 99",
+		"last_name": "Morajkar",
+		"address_line1": "asdasdas, daadadad",
+		"address_line2": "dadas",
+		"address_city": "Mumbai",
+		"address_state": "Maharashtra",
+		"address_zipcode": "40089",
+		"address_country": "India"
+	},
+	"billing_details": {
+		"first_name": "Nitesh",
+		"last_name": "Morajkar",
+		"address_line1": "asdasdas, daadadad",
+		"address_line2": "dadas",
+		"address_city": "Mumbai",
+		"address_state": "Maharashtra",
+		"address_zipcode": "40089",
+		"address_country": "India"
+	},
+	"order_date" : "18/11/2019",
+	"expected_delivery_date": "17/11/2019",
 	"productCart": [
 		{
-			"product_id": 1001001,
-			"product_name": "asdsdsad",
+			"product_id": "1001001s",
+			"product_name": "asd1sdsad",
 			"qty": 1,
-			"unit_price": 289,
+			"unit_price": "289ss",
 			"total_price": 12,
-			"notes": "Notes"
+			"notes": ""
 		},
 		{
 			"product_id": 1001001,
@@ -16,7 +36,7 @@
 			"qty": 1,
 			"unit_price": 289,
 			"total_price": 12,
-			"notes": "Notes"
+			"notes": ""
 		}
 	]
 }

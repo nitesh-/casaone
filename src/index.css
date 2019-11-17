@@ -99,9 +99,9 @@ label.product_id:before {
   content: "";
   position: absolute;
   right: 0;
-  top: -1px;
-  bottom: -2px;
-  width: 20px;
+  top: -3px;
+  bottom: -3px;
+  width: 24px;
   background-color: #5284ee;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -111,7 +111,7 @@ label.product_id:before {
 label.product_id:after {
   content: "";
   position: absolute;
-  right: 2px;
+  right: 4px;
   top: 1px;
   bottom: 0;
   width: 16px;
@@ -130,6 +130,11 @@ label.product_id:after {
 
 input.error {
   border: 1px solid red;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 12px;
 }
 
 .address_input {
@@ -232,6 +237,11 @@ input.error {
   }
   .table_small {
     display: table-row;
+  }
+
+  .errorMsg {
+    color: red;
+    font-size: 8px;
   }
 }
 // Table End
